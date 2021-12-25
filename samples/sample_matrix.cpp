@@ -22,17 +22,11 @@ void main()
   cout << "Введите элементы матрицы Б построчно:" << endl;
   cin >> b;
   cout << "Введеные матрицы" << endl;
-  cout << "A:" << a << endl;
-  cout << "Б:" << b << endl;
-  for (i = 0; i < h; i++)
-    for (j = i; j < h; j++ )
-    {
-      a[i][j] =  i * 10 + j;
-      b[i][j] = (i * 10 + j) * 100;
-    }
+  cout << "Matrix a:" << a << endl;
+  cout << "Matrix b:" << b << endl;
   c = a + b;
-  cout << "Matrix a = " << endl << a << endl;
-  cout << "Matrix b = " << endl << b << endl;
-  cout << "Matrix c = a + b" << endl << c << endl;
+  cout << "Matrix c = a + b" << endl << "Matrix c ="<<endl <<c << endl;
+  c = a - b;
+  cout << "Matrix c = a - b" << endl << "Matrix c =" << endl << c << endl;
 }
 //---------------------------------------------------------------------------

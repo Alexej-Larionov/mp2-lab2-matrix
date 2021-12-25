@@ -209,3 +209,13 @@ TEST(TVector, cant_multiply_vectors_with_not_equal_size)
 	TVector <int> a(5), b(4);
 	ASSERT_ANY_THROW(a * b);
 }
+TEST(TVector, can_simaltaneously_multiply_vector_by_vector_and_scalar)
+{
+	TVector<int> A(5), B(5);
+	ASSERT_NO_THROW(A * B * 10);
+}
+TEST(TVector, can_simaltaneously_add_vector_by_vector_and_scalar)
+{
+	TVector<int> A(5), B(5);
+	ASSERT_NO_THROW(A + B + 10);
+}

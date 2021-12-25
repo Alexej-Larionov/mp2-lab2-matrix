@@ -202,3 +202,18 @@ TEST(TMatrix, cant_subtract_matrixes_with_not_equal_size)
     TMatrix <int> m1(3), m2(5);
     ASSERT_ANY_THROW(m1 - m2);
 }
+//My tests
+TEST(TMatrix, check_commutation_of_add) {
+    TMatrix<int> A(3);
+    TMatrix<int> B(3);
+
+    EXPECT_EQ( A + B, B + A);
+}
+TEST(TMatrix, can_add_and_substract_simultaneously)
+{
+    TMatrix<int> A(3);
+    TMatrix<int> B(3);
+    TMatrix<int> C(3);
+
+    ASSERT_NO_THROW(A-B+C, A+B-C);
+}

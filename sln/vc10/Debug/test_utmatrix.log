@@ -1,3 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  test_utmatrix.vcxproj -> D:\Git\mp2-lab2-matrix\sln\vc10\Debug\test_utmatrix.exe
